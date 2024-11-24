@@ -1,0 +1,48 @@
+**/GLModel/
+**/glm/
+**/GL/
+**/lib/
+
+# 通用规则：忽略所有编译生成的文件和目录
+**/Build/           # 忽略所有子文件夹中的 Build 目录
+**/Debug/           # 忽略所有子文件夹中的 Debug 目录
+**/Release/         # 忽略所有子文件夹中的 Release 目录
+**/*.obj            # 忽略对象文件
+**/*.o              # 忽略对象文件（其他平台）
+**/*.exe            # 忽略可执行文件
+**/*.dll            # 忽略动态链接库
+**/*.lib            # 忽略静态库
+**/*.exp            # 忽略导出文件
+**/*.ilk            # 忽略链接中间文件
+**/*.pdb            # 忽略调试符号文件
+**/*.log            # 忽略日志文件
+**/*.tmp            # 忽略临时文件
+**/*.temp           # 忽略临时文件
+
+# Visual Studio 专用规则
+**/.vs/             # 忽略所有子文件夹中的 .vs 文件夹
+**/*.vcxproj.user   # 忽略用户设置文件
+**/*.VC.db          # 忽略 IntelliSense 数据库文件
+**/*.VC.opendb      # 忽略 IntelliSense 打开的数据库文件
+*.sln
+*.vs
+
+# 忽略临时生成文件
+**/*.cache          # 忽略缓存文件
+**/*.bak            # 忽略备份文件
+**/*.swp            # 忽略交换文件
+
+# 忽略构建的中间文件和结果
+**/*.suo            # 用户选项文件
+**/*.idb            # 编译器数据库文件
+**/*.ipch           # IntelliSense 缓存
+**/*.aps            # 资源临时文件
+**/*.pch            # 预编译头文件
+**/*.res            # 资源文件
+
+# 保留的文件（例如 README 文件）
+!**/README.txt      # 如果每个子文件夹都有 README，则保留
+
+# 特定子目录例外
+!anim-ass/ass1/src/ # 假如 src 是源码文件夹，可以显式保留
+!anim-ass/ass2/include/ # 假如 include 是头文件目录，可以显式保留
