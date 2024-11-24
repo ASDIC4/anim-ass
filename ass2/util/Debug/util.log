@@ -1,0 +1,17 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  vectorObj.cxx
+  vector.cxx
+  Timer.cpp
+  Quaternion.cxx
+  Picker.cpp
+  noise.cpp
+  myMath.cxx
+  image.cpp
+  GLutilities.cxx
+  FrameSaver.cpp
+  CoordSystem.cxx
+  BallMath.cxx
+  BallAux.cxx
+  Ball.cxx
+  正在生成代码...
+  util.vcxproj -> C:\Projects\csc573-computer-animation\ass2\ass2 - 副本\lib\util.lib

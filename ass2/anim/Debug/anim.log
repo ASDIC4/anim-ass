@@ -1,0 +1,15 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  ParticleSimulator.cpp
+  ParticleSystem.cpp
+  BaseSystem.cpp
+  ResourceManager.cpp
+  PartSys.cpp
+  PartSim.cpp
+  myScene.cpp
+  GlobalResourceManager.cpp
+  BaseSimulator.cpp
+  BaseObject.cpp
+  animTcl.cpp
+  anim.cpp
+  正在生成代码...
+  anim.vcxproj -> C:\Projects\csc573-computer-animation\ass2\ass2 - 副本\Build\anim.exe
